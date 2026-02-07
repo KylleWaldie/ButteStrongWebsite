@@ -1,0 +1,13 @@
+<?php
+$info = include __DIR__ . '/../data/info.php';
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+    </head>
+    <body>
+        <h1>Important Links</h1>
+        <p><?= htmlspecialchars($info['immigration_link']) ?></p>
+        <p><a href="index.php">Home</a> | <a href="contact.php">Contact</a></p>
+    </body>

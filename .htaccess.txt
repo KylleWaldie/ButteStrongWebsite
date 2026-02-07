@@ -1,0 +1,18 @@
+# Deny direct access to the data folder
+<Directory "C:/Program Files/Ampps/www/data">
+    Require all denied
+</Directory>
+
+# Optionally protect admin.php with Apache password (Basic Auth)
+ <Files "admin.php">
+     AuthType Basic
+     AuthName "Admin Area"
+     AuthUserFile "C:/Program Files/Ampps/www/.htpasswd"
+     Require valid-user
+ </Files>
+
+# prevent browser access to .git
+<DirectoryMatch "^.*\.git/">
+  Require all denied
+</DirectoryMatch>
+
