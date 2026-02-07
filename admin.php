@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save'])) {
     <label>Home Message: <input name="home_message" value="<?= htmlspecialchars($info['home_message']) ?>" style="width:100%"></label>
     
     <h2>About Page</h2>
-    <label>About Text: <textarea name="about_text" style="width:100%;height:100px;"><?= htmlspecialchars($info['about_text']) ?></textarea></label>
+    <label>About Text: <textarea name="about_text" style="width:100%;height:100px;"><?= htmlspecialchars($info['immigration_link']) ?></textarea></label>
 
     <h2>Contact Page</h2>
     <label>Phone: <input name="phone" value="<?= htmlspecialchars($contact['phone']) ?>" style="width:100%"></label><br>
