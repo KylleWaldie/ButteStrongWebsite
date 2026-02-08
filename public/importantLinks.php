@@ -3,8 +3,16 @@ $info = include __DIR__ . '/../data/info.php';
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About</title>
+        <head>
+        <title>Important Links</title>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Other</a></li>
+            </ul>
+        </nav>
+
     </head>
     <body>
         <h1>Important Links</h1>

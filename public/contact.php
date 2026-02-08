@@ -4,7 +4,15 @@ $contact = include __DIR__ . '/../data/contact.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact</title>
+        <title>Contacts</title>
+        <nav>
+            <ul>
+                <li><a href="importantLinks.php">Important Links</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="contact.php">Other</a></li>
+            </ul>
+        </nav>
+
     </head>
     <body>
         <h1>Contact Us</h1>
