@@ -1,5 +1,7 @@
 <?php
+include __DIR__ . '/../includes/track_visitors.php';
 $info = include __DIR__ . '/../data/info.php';
+
 ?>
 
 <!DOCTYPE html>
