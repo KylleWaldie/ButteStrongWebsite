@@ -6,16 +6,16 @@ $info = include __DIR__ . '/../data/info.php';
 <html>
     <head>
         <title>Home Page</title>
-        <nav>
-            <ul>
-                <li><a href="importantLinks.php">Important Links</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="contact.php">Other</a></li>
-            </ul>
-        </nav>
-
+        <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
-        <h1><?= htmlspecialchars($info['home_message']) ?></h1>
+        <?php include __DIR__ . '/../includes/header.php'; ?>
+        <main class="content">
+            <h1><?= htmlspecialchars($info['home_message']) ?></h1>
+        </main>
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
+
 </html>
+
