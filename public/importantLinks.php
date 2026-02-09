@@ -12,6 +12,8 @@ $info = include __DIR__ . '/../data/info.php';
         <main class="content">
             <h1>Important Links</h1>
             <p><?= htmlspecialchars($info['immigration_link']) ?></p>
+            <p><?= htmlspecialchars($info['link_2']) ?></p>
+            <p><?= htmlspecialchars($info['immigration_link']) ?></p>
         </main>
 
         <?php include __DIR__ . '/../includes/footer.php'; ?>
