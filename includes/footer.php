@@ -17,4 +17,13 @@
             <a href="<?= htmlspecialchars($info['instagram_link']) ?>" target="_blank">Instagram</a>
         <?php endif; ?>
     </div>
+
+    <div class="Legals">
+        <p>
+            <a href="privacy.php">Privacy Policy</a> |
+            <a href="terms.php">Terms of Service</a> |
+            <a href="cookies.php">Cookie Policy</a>
+        </p>
+    </div>
+    
 </footer>
