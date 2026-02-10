@@ -14,7 +14,16 @@ $info = include __DIR__ . '/../data/info.php';
     <body>
         <?php include __DIR__ . '/../includes/header.php'; ?>
         <main class="content">
-            <h1><?= htmlspecialchars($info['home_message']) ?></h1>
+            <div class="home_image">
+                <img src="/../public/images/RubyPhoto.jpg" alt="Home Image">
+            </div>
+            <div class="welcome-message">
+               <h1><?= htmlspecialchars($info['home_message']) ?></h1> 
+            </div>
+            <div class="home-content">
+                <p>If you are danger call emergency services (911) <br>
+                To report something to Butte Tough text or call this number (000) 000-0000</p>
+            </div>
         </main>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>

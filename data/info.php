@@ -1,6 +1,6 @@
 <?php
 return [
-    'home_message' => 'Welcome to our website!',
+    'home_message' => 'Butte Tough - Mission',
     'immigration_link' => 'First link go here.',
     'link_2' => 'Second link goes here',
     'link_3'=> 'Third link goes here',
