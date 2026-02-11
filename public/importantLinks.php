@@ -12,9 +12,15 @@ $info = include __DIR__ . '/../data/info.php';
 
         <main class="content">
             <h1>Important Links</h1>
-            <p><?= htmlspecialchars($info['immigration_link']) ?></p>
-            <p><?= htmlspecialchars($info['link_2']) ?></p>
-            <p><?= htmlspecialchars($info['immigration_link']) ?></p>
+            <div class = important_link1>
+                <p><?= htmlspecialchars($info['immigration_link']) ?></p>
+            </div>
+            <div class = important_link2>
+                <p><?= htmlspecialchars($info['link_2']) ?></p>
+            </div>    
+            <div class = important_link3>
+                <p><?= htmlspecialchars($info['immigration_link']) ?></p>
+            </div>
         </main>
 
         <?php include __DIR__ . '/../includes/footer.php'; ?>

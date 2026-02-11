@@ -15,9 +15,15 @@ $info = include __DIR__ . '/../data/info.php';
 
         <main class="content">
             <h1>Contact Us</h1>
-            <p>Phone: <?= htmlspecialchars($contact['phone']) ?></p>
-            <p>Email: <?= htmlspecialchars($contact['email']) ?></p>
-            <p>Address: <?= htmlspecialchars($contact['address']) ?></p>
+            <div class = contact_phone>
+                <p>Phone: <?= htmlspecialchars($contact['phone']) ?></p>
+            </div>
+            <div class = contact_email>
+                <p>Email: <?= htmlspecialchars($contact['email']) ?></p>
+            </div>
+            <div class = contact_address>
+                <p>Address: <?= htmlspecialchars($contact['address']) ?></p>
+            </div>
         </main>
 
         <?php include __DIR__ . '/../includes/footer.php'; ?>
