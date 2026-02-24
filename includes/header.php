@@ -1,14 +1,18 @@
 <header class="site-header">
-    <h1>Butte Tough</h1>
-    <nav class="sidebar">
-        <ul>
-            <li><a href="/../public/index.php">Home</a></li>
-            <li><a href="/../public/importantLinks.php">Important Links</a></li>
-            <li><a href="/../public/contact_page.php">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <button class="nav_burger">menu</button>
+        <nav class="sidebar">
+            <ul data-visible="false">
+                <li><a href="/../public/index.php"><div class="navlink"><h1>Butte Tough</h1></div></a></li>
+                <li><a href="/../public/index.php"><div class="navlink">Resource 1</div></a></li>
+                <li><a href="/../public/importantLinks.php"><div class="navlink">Resource 2</div></a></li>
+                <li><a href="/../public/contact_page.php"><div class="navlink">Resource 3</div></a></li>
+            </ul>
+        </nav>
+    </div>
 
     <!-- Cookie Banner -->
+     <!--
     <div id="cookie-banner">
         This site uses cookies to track visitors and improve user experience.
         <button onclick="document.getElementById('cookie-banner').style.display='none'" 
@@ -16,7 +20,7 @@
             OK
         </button>
     </div>
-
+-->
     <!-- Load cookie JS -->
     <script src="/../public/js/cookies.js"></script>
 </header>

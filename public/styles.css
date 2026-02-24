@@ -1,0 +1,68 @@
+.navbar h1{
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}
+
+body{
+	margin: 0px;
+}
+
+.navbar ul{
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.encompass{
+	display: flex;
+}
+
+.navbar {
+  background-color: black;
+  position: sticky;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+.navlink {
+	width: 100%;
+	min-height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+	color: white;
+}
+.nav_burger{
+	display: none;
+}
+
+
+@media(max-width: 35em){
+	.navbar {
+		background-color: color;
+		box-sizing: border-box;
+		height: 20%;
+		width: 100vw;
+		transform: translateY(-100%)
+	}
+	.encompass {
+		flex-direction: column;
+	}
+	.nav_burger {
+		display: block;
+		position: absolute;
+		aspect-ratio: 1;
+		top: 2rem;
+		right: 2rem;
+		z-index: 9999;
+	}
+}
+
+ 
