@@ -1,13 +1,14 @@
 <?php
-include __DIR__ . '/../includes/track_visitors.php';
 $info = include __DIR__ . '/../data/info.php';
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Important Links</title>
+        <link rel="stylesheet" href="/ButteToughWebsite/public/css/navbar_styles.css">
     </head>
     <body>
+        <div class=encompass>
         <?php include __DIR__ . '/../includes/header.php'; ?>
 
         <main class="content">
@@ -22,7 +23,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <p><?= htmlspecialchars($info['immigration_link']) ?></p>
             </div>
         </main>
-
+        </div>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
 </html>

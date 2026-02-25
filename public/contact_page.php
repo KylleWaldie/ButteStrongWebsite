@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . '/../includes/track_visitors.php';
 $contact = include __DIR__ . '/../data/contact.php';
 $info = include __DIR__ . '/../data/info.php';
 ?>
@@ -7,10 +6,11 @@ $info = include __DIR__ . '/../data/info.php';
 <html>
     <head>
         <title>Contacts</title>
-
+        <link rel="stylesheet" href="/ButteToughWebsite/public/css/navbar_styles.css">
     </head>
 
     <body>
+        <div class=encompass>
         <?php include __DIR__ . '/../includes/header.php'; ?>
 
         <main class="content">
@@ -25,6 +25,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <p>Address: <?= htmlspecialchars($contact['address']) ?></p>
             </div>
         </main>
+        </div>
 
         <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
