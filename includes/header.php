@@ -1,9 +1,11 @@
 <header class="site-header">
     <div class="navbar">
-        <button class="nav_burger">menu</button>
+        <div class="topper">
+        <button class="nav_burger">☰</button>
+        <a href="/../public/index.php"><div class="logolink"><h1>Butte Tough</h1></div></a>
+        </div>
         <nav class="sidebar">
             <ul data-visible="false">
-                <li><a href="/../public/index.php"><div class="navlink"><h1>Butte Tough</h1></div></a></li>
                 <li><a href="/../public/index.php"><div class="navlink">Resource 1</div></a></li>
                 <li><a href="/../public/importantLinks.php"><div class="navlink">Resource 2</div></a></li>
                 <li><a href="/../public/contact_page.php"><div class="navlink">Resource 3</div></a></li>
@@ -11,6 +13,7 @@
         </nav>
     </div>
 
+    <script src="events.js"></script>
     <!-- Cookie Banner -->
      <!--
     <div id="cookie-banner">
