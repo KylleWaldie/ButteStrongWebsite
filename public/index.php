@@ -7,7 +7,7 @@ $info = include __DIR__ . '/../data/info.php';
 <html>
     <head>
         <title>Home Page</title>
-        <link rel="stylesheet" href="/ButteToughWebsite/public/css/navbar_styles.css">
+        <link rel="stylesheet" href="/ButteStrongWebsite/public/css/navbar_styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
@@ -17,7 +17,7 @@ $info = include __DIR__ . '/../data/info.php';
             <?php include __DIR__ . '/../includes/header.php'; ?>
             <main class="content">
                 <div class="home_image">
-                    <img src="/ButteToughWebsite/public/images/ButtePhoto.png" alt="Home Image">
+                    <img src="/ButteStrongWebsite/public/images/ButtePhoto.png" alt="Home Image">
                 </div>
                 <div class="welcome-message">
                 <h1><?= htmlspecialchars($info['home_message']) ?></h1> 
