@@ -26,6 +26,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <p>If you are danger call emergency services (911) <br>
                 To report something to Butte Tough text or call this number (000) 000-0000</p>
             </div>
+            <p class="home-content">This website is for informational purposes only and is not a substitute for professional advice or emergency services.</p>
         </main>
         </div>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
