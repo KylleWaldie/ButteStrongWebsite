@@ -5,7 +5,7 @@ $info = include __DIR__ . '/../data/info.php';
 <html>
     <head>
         <title>Important Links</title>
-        <link rel="stylesheet" href="/ButteToughWebsite/public/css/navbar_styles.css">
+        <link rel="stylesheet" href="/ButteStrongWebsite/public/css/navbar_styles.css">
     </head>
     <body>
         <div class=encompass>
