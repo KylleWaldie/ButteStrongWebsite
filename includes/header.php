@@ -1,8 +1,8 @@
 <header class="site-header">
     <div class="navbar">
         <div class="topper">
+        <a href="/../public/index.php"><div class="logolink"><img src="logo.png" class="logo" alt="Description of the image"></div></a>
         <button class="nav_burger">☰</button>
-        <a href="/../public/index.php"><div class="logolink"><h1>Butte Tough</h1></div></a>
         </div>
         <nav class="sidebar">
             <ul data-visible="false">
