@@ -9,6 +9,7 @@ $info = include __DIR__ . '/../data/info.php';
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class=encompass>
         <?php include __DIR__ . '/../includes/header.php'; ?>
 
         <main class="content">
@@ -27,7 +28,7 @@ $info = include __DIR__ . '/../data/info.php';
             <h2>Changes to Terms</h2>
             <p>We may update these terms at any time. Continued use of the site constitutes acceptance of changes.</p>
         </main>
-
+        </div>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
 </html>
