@@ -10,13 +10,25 @@ body{
 }
 
 
-.sidebar{
-	display: flex;
-	flex-direction: column;
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul:first-of-type {
+    flex: 1;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .logolink{
@@ -38,13 +50,14 @@ body{
   width: 100%;
   box-sizing: border-box;
   top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .navlink {
 	width: 100%;
 	min-height: 30px;
 }
-	
 
 .navbar a {
     text-decoration: none;
@@ -59,6 +72,11 @@ body{
 	align-items: center; 
 }
 
+.sidebar a:hover {
+    text-decoration: none;
+    color: #708090;
+    transition: color 0.2s ease;
+}
 
 @media(max-width: 35em){
 	.logo{

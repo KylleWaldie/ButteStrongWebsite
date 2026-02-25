@@ -25,8 +25,8 @@ $info = include __DIR__ . '/../data/info.php';
                 <p>Address: <?= htmlspecialchars($contact['address']) ?></p>
             </div>
         </main>
-        </div>
 
         <?php include __DIR__ . '/../includes/footer.php'; ?>
+        </div>
     </body>
 </html>

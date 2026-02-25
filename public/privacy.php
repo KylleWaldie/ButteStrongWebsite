@@ -40,7 +40,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <p>We use cookies to track visitors and improve user experience. You can accept or decline cookies using the banner at the bottom of the page.</p>
             </div>
         </main>
-        </div>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
+        </div>
     </body>
 </html>

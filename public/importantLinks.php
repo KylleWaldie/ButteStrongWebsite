@@ -23,7 +23,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <p><?= htmlspecialchars($info['immigration_link']) ?></p>
             </div>
         </main>
-        </div>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
+        </div>
     </body>
 </html>
