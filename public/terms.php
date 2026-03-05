@@ -2,10 +2,12 @@
 $info = include __DIR__ . '/../data/info.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Terms of Service</title>
+        <title>Terms of Service Butte Strong</title>
         <link rel="stylesheet" href="/ButteStrongWebsite/public/css/navbar_styles.css">
+        <link rel="stylesheet" href="/ButteStrongWebsite/public/css/footer_styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class=encompass>
@@ -13,6 +15,7 @@ $info = include __DIR__ . '/../data/info.php';
 
         <main class="content">
             <h1>Terms of Service</h1>
+            <p><strong>Last Updated:</strong> March 2026</p>
             <p>Welcome to Butte Strong. By using our website, you agree to the following terms:</p>
 
             <h2>Use of Website</h2>

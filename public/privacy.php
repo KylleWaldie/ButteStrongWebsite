@@ -2,10 +2,12 @@
 $info = include __DIR__ . '/../data/info.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Privacy Policy</title>
         <link rel="stylesheet" href="/ButteStrongWebsite/public/css/navbar_styles.css">
+        <link rel="stylesheet" href="/ButteStrongWebsite/public/css/footer_styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class=encompass>
@@ -14,6 +16,7 @@ $info = include __DIR__ . '/../data/info.php';
         <main class="content">
             <div class = privacy_policy>
                 <h1>Privacy Policy</h1>
+                <p><strong>Last Updated:</strong> March 2026</p>
                 <p>Butte Strong respects your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
             </div>
 
@@ -33,11 +36,6 @@ $info = include __DIR__ . '/../data/info.php';
                     <li>Respond to inquiries submitted via contact forms</li>
                     <li>Comply with legal obligations</li>
                 </ul>
-            </div>
-
-            <div class = privacy_cookies>
-                <h2>Cookies</h2>
-                <p>We use cookies to track visitors and improve user experience. You can accept or decline cookies using the banner at the bottom of the page.</p>
             </div>
         </main>
         <?php include __DIR__ . '/../includes/footer.php'; ?>
