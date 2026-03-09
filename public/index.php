@@ -31,8 +31,8 @@ $info = include __DIR__ . '/../data/info.php';
                 </div>
                 <p class="home-content">This website is for informational purposes only and is not a substitute for professional advice or emergency services.</p>
             </main>
-            <?php include __DIR__ . '/../includes/footer.php'; ?>
         </div>
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
     <script src="/ButteStrongWebsite/public/js/events.js" defer></script>
 </html>

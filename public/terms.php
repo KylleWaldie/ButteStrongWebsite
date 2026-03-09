@@ -30,7 +30,7 @@ $info = include __DIR__ . '/../data/info.php';
             <h2>Changes to Terms</h2>
             <p>We may update these terms at any time. Continued use of the site constitutes acceptance of changes.</p>
         </main>
-        <?php include __DIR__ . '/../includes/footer.php'; ?>
         </div>
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
 </html>
