@@ -12,11 +12,11 @@
             </ul>
             <ul class="socials" data-visible="false">
                 <?php if (!empty($info['facebook_link'])): ?>
-                <li><a href="<?= htmlspecialchars($info['facebook_link']) ?>" target="_blank" rel="noopener noreference">Facebook | </a></li>
+                <li><a href="<?= htmlspecialchars($info['facebook_link']) ?>" target="_blank" rel="noopener noreference">Facebook</a></li>
                 <?php endif; ?>
 
                 <?php if (!empty($info['x_link'])): ?>
-                    <li><a href="<?= htmlspecialchars($info['x_link']) ?>" target="_blank" rel="noopener noreference">X | </a></li>
+                    <li><a href="<?= htmlspecialchars($info['x_link']) ?>" target="_blank" rel="noopener noreference">X</a></li>
                 <?php endif; ?>
 
                 <?php if (!empty($info['instagram_link'])): ?>

@@ -42,9 +42,7 @@ $info = include __DIR__ . '/../data/info.php';
 
             </main>
 
-            <?php include __DIR__ . '/../includes/footer.php'; ?>
-
         </div>
-
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
 </html>

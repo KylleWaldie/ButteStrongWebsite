@@ -38,7 +38,7 @@ $info = include __DIR__ . '/../data/info.php';
                 </ul>
             </div>
         </main>
-        <?php include __DIR__ . '/../includes/footer.php'; ?>
         </div>
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
 </html>

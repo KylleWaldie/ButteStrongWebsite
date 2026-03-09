@@ -1,4 +1,87 @@
-.visually-hidden{
-    position:absolute;
-    left:-9999px;
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0 12px;
+    gap: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #708090;
+}
+
+/* Navigation rows */
+footer .Legals ul,
+footer .Links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 20px;
+}
+
+footer .Legals,
+footer .Links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .Links {
+    padding-top: 10px;
+}
+
+/* Copyright line */
+footer .cr {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 4px;
+}
+
+footer .cr p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+/* Visually hidden heading (accessibility) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 35em) {
+    footer {
+        padding: 16px 12px 10px;
+        gap: 10px;
+    }
+
+    footer .Legals ul,
+    footer .Links ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
 }
