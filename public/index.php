@@ -31,9 +31,9 @@ $info = include __DIR__ . '/../data/info.php';
                     <p>To report something to Butte Strong, text or call <a href="tel:0000000000">(000) 000-0000</a></p>
                 </div>
                 <p class="home-content">This website is for informational purposes only and is not a substitute for professional advice or emergency services.</p>
-                <?php include __DIR__ . '/../includes/footer.php'; ?>
             </main>
         </div>
+        <?php include __DIR__ . '/../includes/footer.php'; ?>
     </body>
     <script src="/ButteStrongWebsite/public/js/events.js" defer></script>
 </html>
