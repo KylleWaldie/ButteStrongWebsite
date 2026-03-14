@@ -71,7 +71,7 @@ footer .cr p {
     border: 0;
 }
 
-/* ── Responsive ── */
+
 @media (max-width: 35em) {
     footer {
         padding: 16px 12px 10px;

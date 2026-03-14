@@ -3,4 +3,5 @@ const links = document.querySelector(".sidebar");
 
 burger.addEventListener("click", () => {
     links.classList.toggle("active");
+    burger.classList.toggle("active");
 });
