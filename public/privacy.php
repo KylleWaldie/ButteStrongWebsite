@@ -7,6 +7,7 @@ $info = include __DIR__ . '/../data/info.php';
         <title>Privacy Policy</title>
         <link rel="stylesheet" href="/ButteStrongWebsite/public/css/navbar_styles.css">
         <link rel="stylesheet" href="/ButteStrongWebsite/public/css/footer_styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="stylesheet" href="/ButteStrongWebsite/public/css/privacy_styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>

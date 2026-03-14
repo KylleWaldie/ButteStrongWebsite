@@ -11,20 +11,26 @@
         <nav class="sidebar" id="primary-navigation" aria-label="Main navigation">
             <ul data-visible="false">
                 <li><a href="/ButteStrongWebsite/public/index.php" class="navlink">Resource 1</a></li>
-                <li><a href="/ButteStrongWebsite/public/importantLinks.php" class="navlink">Resource 2</a></li>
-                <li><a href="/ButteStrongWebsite/public/contact_page.php" class="navlink">Resource 3</a></li>
+                <li><a href="/ButteStrongWebsite/public/importantLinks.php" class="navlink">Important Links</a></li>
+                <li><a href="/ButteStrongWebsite/public/contact_page.php" class="navlink">Contact Us</a></li>
             </ul>
             <ul class="socials" data-visible="false">
                 <?php if (!empty($info['facebook_link'])): ?>
-                <li><a href="<?= htmlspecialchars($info['facebook_link']) ?>" target="_blank" rel="noopener noreference">Facebook</a></li>
+                <li><a href="<?= htmlspecialchars($info['facebook_link']) ?>" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a></li>
                 <?php endif; ?>
 
                 <?php if (!empty($info['x_link'])): ?>
-                    <li><a href="<?= htmlspecialchars($info['x_link']) ?>" target="_blank" rel="noopener noreference">X</a></li>
+                <li><a href="<?= htmlspecialchars($info['x_link']) ?>" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a></li>
                 <?php endif; ?>
 
                 <?php if (!empty($info['instagram_link'])): ?>
-                    <li><a href="<?= htmlspecialchars($info['instagram_link']) ?>" target="_blank" rel="noopener noreference">Instagram</a></li>
+                <li><a href="<?= htmlspecialchars($info['instagram_link']) ?>" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
                 <?php endif; ?>
             </ul>
         </nav>
