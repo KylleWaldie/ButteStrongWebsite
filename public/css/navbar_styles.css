@@ -55,6 +55,7 @@ body{
 
 .logo{
 	height: 100px;
+	margin-left: 10px;
 }
 
 /* Outer wrapper: stacks inner-wrap and footer vertically */
