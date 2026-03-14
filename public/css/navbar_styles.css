@@ -45,6 +45,10 @@ body{
     padding: 10px 0;
 }
 
+.socials a i {
+    font-size: 1.5rem;
+}
+
 .logolink{
 	max-width: 100%;
 }
