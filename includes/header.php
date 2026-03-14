@@ -2,7 +2,11 @@
     <div class="navbar">
         <div class="topper">
         <a href="/ButteStrongWebsite/public/index.php"><div class="logolink"><img src="/ButteStrongWebsite/public/images/logo-removebg-preview.png" class="logo" alt="Butte Strong home page logo"></div></a>
-        <button class="nav_burger" aria-label="Toggle navigation menu" aria-controls="primary-navigation" aria-expanded="false">☰</button>
+        <button class="nav_burger" aria-label="Toggle navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         </div>
         <nav class="sidebar" id="primary-navigation" aria-label="Main navigation">
             <ul data-visible="false">

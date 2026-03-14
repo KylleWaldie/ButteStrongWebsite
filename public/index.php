@@ -22,7 +22,7 @@ $info = include __DIR__ . '/../data/info.php';
                 <?php include __DIR__ . '/../includes/header.php'; ?>
                 <main id="main-content" class="content">
                     <div class="home_image">
-                        <img src="/ButteStrongWebsite/public/images/ButtePhoto.png" alt="View of Butte, Montana with a historic mining gallows frame in the foreground">
+                        <img src="/ButteStrongWebsite/public/images/istockphoto-1502044339-1024x1024.jpg" alt="View of Butte, Montana with a historic mining gallows frame in the foreground">
                     </div>
                     <div class="welcome-message">
                     <h1><?= htmlspecialchars($info['home_message']) ?></h1> 
