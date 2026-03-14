@@ -36,4 +36,5 @@ $info = include __DIR__ . '/../data/info.php';
         <?php include __DIR__ . '/../includes/footer.php'; ?>
         </div>
     </body>
+    <script src="/ButteStrongWebsite/public/js/events.js" defer></script>
 </html>
