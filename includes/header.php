@@ -10,7 +10,7 @@
         </div>
         <nav class="sidebar" id="primary-navigation" aria-label="Main navigation">
             <ul data-visible="false">
-                <li><a href="/ButteStrongWebsite/public/index.php" class="navlink">Resource 1</a></li>
+                <li><a href="/ButteStrongWebsite/public/pantry_box.php" class="navlink">Butte Pantry Locations</a></li>
                 <li><a href="/ButteStrongWebsite/public/importantLinks.php" class="navlink">Important Links</a></li>
                 <li><a href="/ButteStrongWebsite/public/contact_page.php" class="navlink">Contact Us</a></li>
             </ul>
