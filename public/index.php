@@ -33,26 +33,38 @@ $info = include __DIR__ . '/../data/info.php';
                         <p>To report something to Butte Strong, text or call <a href="tel:0000000000">(000) 000-0000</a></p>
                     </div>
                     <p class="home-content">This website is for informational purposes only and is not a substitute for professional advice or emergency services. </p>
-                    <p class="home-content">    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
-                                            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. 
-                                            Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    <p class="home-content-heading">
+                        <b>Mission Statement</b>
                     </p>
-                    <p class="home-content">    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
-                                            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
-                                             Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    <p class="home-content"> 
+                        To organize and protect the residents of Butte by ensuring equitable access to justice,
+                         safety, and resources without exception.
                     </p>
-                    <p class="home-content">    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
-                                            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
-                                             Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    <p class="home-content-heading">
+                        <b>Vision Statement</b>
                     </p>
-                    <p class="home-content">    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
-                                            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
-                                             Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    <p class="home-content">
+                        At Butte Strong neighborhood watch, every person truly belongs and feels secure, 
+                        where background or identity never dictates one's access to safety, and where community-led accountability 
+                        ensures our systems work for the benefit of all.
                     </p>
-                    <p class="home-content">    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
-                                            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.
-                                             Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                    </p>           
+                    <p class="home-content-heading">
+                        <b>Core Values</b>
+                    </p>
+                    <p class="home-content">
+                        <b>Collective Protection:</b> We are a community coalition built on the simple, powerful act of neighbors
+                         looking out for one another.
+                    </p>
+                    <p class="home-content">
+                        <b>Inherent Dignity:</b> Every individual deserves respect and safety regardless of where they were born,
+                         what they look like, or who they are.
+                    </p>
+                    <p class="home-content">    
+                        <b>Equity is a Right:</b> Justice and resources are not privileges to be earned, but fundamental rights for every neighbor.
+                    </p>
+                    <p class="home-content">
+                        <b>Systemic Accountability:</b> We don't just watch the streets; we watch the systems. We ensure that institutions meant to serve the public remain equitable and effective.
+                    </p>        
                 </main>
             </div>
             <?php include __DIR__ . '/../includes/footer.php'; ?>
